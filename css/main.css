@@ -230,7 +230,7 @@ img {
 }
 
 #header {
-  background: url(/project/img/showcase.jpg) no-repeat center right/cover;
+  background: url("../img/showcase.jpg") no-repeat center right/cover;
   color: white;
   height: 100vh;
   padding-top: 1rem;
@@ -252,7 +252,7 @@ img {
 
 #header-inner {
   padding: 0.5rem 0;
-  background: url(/project/img/showcase.jpg) no-repeat 20% 30%/cover;
+  background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
   color: white;
   border-bottom: 3px solid #ffbc00;
