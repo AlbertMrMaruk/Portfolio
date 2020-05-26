@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page | Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <header id="header-inner">
+      <div class="container">
+        <nav id="navbar">
+          <img src="img/logo.png" alt="" class="logo" />
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="contact">
+      <article id="contact-a" class="text-center py-3">
+        <div class="container">
+          <h2 class="title uppercase">Contact me</h2>
+          <div class="bottom-line"></div>
+          <p class="leader">Here is how you can reach me</p>
+          <form action="action.php">
+            <div class="contact-form">
+              <input type="text" class="name" name="name" placeholder="Name" />
+              <input
+                type="text"
+                class="email"
+                name="email"
+                placeholder="Email Address"
+              />
+              <input
+                type="text"
+                class="subject"
+                name="subject"
+                placeholder="Subject"
+              />
+              <input
+                type="text"
+                class="number"
+                name="number"
+                placeholder="Phone Number"
+              />
+              <textarea
+                name="message"
+                class="message"
+                placeholder="Enter Message"
+              ></textarea>
+            </div>
+            <input type="submit" value="Submit" class="btn-dark" />
+          </form>
+        </div>
+      </article>
+      <article id="contact-b" class="bg-third text-center py-3">
+        <div class="container">
+          <div class="grid">
+            <div>
+              <i class="fas fa-envelope fa-2x"></i>
+              <h3 class="uppercase">Email</h3>
+              <p>john@something.com</p>
+            </div>
+            <div>
+              <i class="fas fa-phone fa-2x"></i>
+              <h3 class="uppercase">Phone</h3>
+              <p>(555) 555-5555</p>
+            </div>
+            <div>
+              <i class="fas fa-address-card fa-2x"></i>
+              <h3 class="uppercase">Address</h3>
+              <p>50 Main st, Boston MA</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article id="contact-c" class="text-center py-4 bg-primary">
+        <div class="container">
+          <h1>Let's Start Your Next Project</h1>
+        </div>
+      </article>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div>
+          <p>Copyright &copy; 2020. All Rights Reserved</p>
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
