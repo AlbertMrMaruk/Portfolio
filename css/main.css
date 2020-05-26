@@ -583,7 +583,7 @@ nav img {
 @media (max-width: 525px) {
   #header {
     padding-top: 0;
-    background: url(/project/img/showcase.jpg) no-repeat 20% 30%/cover;
+    background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
     border-bottom: 3px solid #ffbc00;
     height: 10rem;
   }
